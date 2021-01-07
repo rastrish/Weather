@@ -15,5 +15,4 @@ val koinModule = module {
 
     single {provideMedtrailNetworkService()}
     single { WeatherRepository(get()) }
-    single { GifAdapter() }
 }

@@ -27,6 +27,8 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            buildConfigField ('String', "APP ID", '"ee41ae7d84cef2f7f8a72b9e592d1d49"')
+
         }
         debug{
             buildConfigField ('String', "BASE_URL", '"https://api.openweathermap.org/data/2.5/"')
